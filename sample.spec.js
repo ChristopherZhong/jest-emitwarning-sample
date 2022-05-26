@@ -6,7 +6,7 @@ function emitWarningWithError() {
 }
 
 function emitWarningWithString() {
-    process.emitWarning('foo')
+    process.emitWarning('bar')
 }
 
 describe('emitWarning', () => {
